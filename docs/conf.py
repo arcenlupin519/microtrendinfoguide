@@ -15,11 +15,9 @@ html_js_files = [
 html_favicon = '_static/favicon.png'
 
 html_context = {
-    'bing_verification_code': 'EF0D113A83DA6960716D3F3EB33D127B'
+    'bing_verification_code': '739245F5D54BCBF40AC056DC0CBF5710'
 }
 
-extensions = [
-    'sphinx_sitemap',
-]
+
 
 html_baseurl = 'https://docs.yourdomain.com/'
