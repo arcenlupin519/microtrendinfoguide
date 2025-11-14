@@ -1,34 +1,25 @@
-project = 'Trend Micro Login'
-author = 'Trend Micro Login'
+project = 'Thunderbird'
+author = 'Thunderbird'
 release = '1.0'
 
-# Sphinx Extensions
+extensions = []
+templates_path = ['_templates']
+exclude_patterns = []
+
+html_theme = 'alabaster'
+html_static_path = ['_static']   
+
+html_js_files = [
+    'chatbot.js',
+]
+html_favicon = '_static/favicon.png'
+
+html_context = {
+    'bing_verification_code': 'EF0D113A83DA6960716D3F3EB33D127B'
+}
+
 extensions = [
     'sphinx_sitemap',
 ]
 
-# Templates & Patterns
-templates_path = ['_templates']
-exclude_patterns = []
-
-# ReadTheDocs Friendly Theme (Highly Recommended)
-html_theme = 'sphinx_rtd_theme'
-
-# Static Files
-html_static_path = ['_static']
-
-# Optional JS script
-html_js_files = [
-    'chatbot.js',
-]
-
-# Favicon
-html_favicon = '_static/favicon.png'
-
-# Important for Sitemap
-html_baseurl = 'https://microtrendinfoguide.readthedocs.io/en/latest/'
-
-# Bing Verification
-html_context = {
-    'bing_verification_code': '739245F5D54BCBF40AC056DC0CBF5710'
-}
+html_baseurl = 'https://docs.yourdomain.com/'
