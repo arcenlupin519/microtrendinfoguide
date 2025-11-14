@@ -1,5 +1,8 @@
-Trend Micro Login Account — Complete User Access Guide
+Trend Micro Login Account
 =========================
+
+Welcome to the documentation...
+
 
 This document provides a complete and clear explanation of how to access a Trend Micro login account, how the account system works, and how users can manage their security services through the Trend Micro dashboard. The goal of this guide is to help users understand the login process in a simple and organized way, without unnecessary promotional content. All instructions are written in a clean Read the Docs–friendly structure.
 
