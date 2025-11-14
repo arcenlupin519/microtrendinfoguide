@@ -1,5 +1,5 @@
-project = 'Thunderbird'
-author = 'Thunderbird'
+project = 'microtrendinfoguide'
+author = 'microtrendinfoguide'
 release = '1.0'
 
 extensions = []
